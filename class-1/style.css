@@ -1,0 +1,107 @@
+/* Base CSS*/
+@font-face {
+  font-family: 'CodeBold';
+  src: url('../fonts/code-bold.eot');
+  src: url('../fonts/code-bold.eot') format('embedded-opentype'), url('../fonts/code-bold.woff') format('woff'), url('../fonts/code-bold.ttf') format('truetype'), url('../fonts/code-bold.svg#codebold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}@font-face {
+  font-family: 'CodeLight';
+  src: url('../fonts/code-light.eot');
+  src: url('../fonts/code-light.eot') format('embedded-opentype'), url('../fonts/code-light.woff') format('woff'), url('../fonts/code-light.ttf') format('truetype'), url('../fonts/code-light.svg#codelight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.alignleft{
+    float: left;
+    margin-right:15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus{ outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'CodeLight', sans-serif;
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+a:hover, a:focus{ text-decoration: none}
+.produtc-bg-1{background-image: url(assets/img/lady-1.png)}
+.produtc-bg-2{background-image: url(assets/img/lady-2.png)}
+.produtc-bg-3{background-image: url(assets/img/lady-3.png)}
+.produtc-bg-4{background-image: url(assets/img/lady-4.png)}
+.produtc-bg-5{background-image: url(assets/img/lady-5.png)}
+.produtc-bg-6{background-image: url(assets/img/lady-6.png)}
+.produtc-bg-7{background-image: url(assets/img/lady-7.png)}
+.produtc-bg-8{background-image: url(assets/img/lady-8.png)}
+.produtc-bg-9{background-image: url(assets/img/lady-9.png)}
+.produtc-bg-10{background-image: url(assets/img/lady-10.png)}
+.homepage-slider-wrap{background-image: url(assets/img/hero-bg.jpg)}
+.header-top-area a {
+  color: #5b3f61;
+  padding: 15px;
+  display: inline-block;
+}
+.header-top-area {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.headr-left ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.headr-left li {
+  display: inline-block;
+}
+.header-top-area .menu-trigger {
+  display: none;
+}
+.header-right {
+  text-align: right;
+}
+.search-trigger i.fa {
+  padding-left: 10px;
+}
+.homepage-slider-wrap {
+  background-color: #ead6cf;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+html, body{height: 100%}
+.single-slide-item {
+  position: relative;
+}
+.single-slide-item > img {
+  left: 50%;
+  margin-left: -300px;
+  position: absolute;
+  width: 600px;
+}
+.slide-text-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.homepage-slider-wrap div {
+  height: 100%;
+}
